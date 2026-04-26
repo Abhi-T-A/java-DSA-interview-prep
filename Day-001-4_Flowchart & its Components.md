@@ -255,20 +255,6 @@ The **parallelogram** symbol is used for input and output.
 An algorithm is written step-by-step logic, while a flowchart is the **diagrammatic representation** of that logic.
 
 ---
-
-## Practice Problems
-
-### Easy
-Draw or write a flowchart to add two numbers.
-
-### Medium
-Draw or write a flowchart to find the largest of two numbers.
-
-### Hard (for Beginner)
-Draw or write a flowchart to check whether a student passed or failed based on marks.
-
----
-
 ## Final Revision Notes
 
 ```text
@@ -292,3 +278,7 @@ Flowcharts help us plan logic before coding.
 ## Summary
 
 Flowcharts help programmers **visualize logic clearly** before writing code. For beginners, flowcharts are useful because they improve problem-solving, dry run ability, and logical thinking. Mastering flowcharts builds a strong foundation for understanding Data Structures and Algorithms.
+
+
+<img width="1166" height="884" alt="Screenshot 2026-04-26 233325" src="https://github.com/user-attachments/assets/90099df9-acc5-4bac-a3df-0f7bf685a418" />
+
