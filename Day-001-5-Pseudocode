@@ -1,14 +1,10 @@
 # Day 001 - Pseudocode
 
----
-
 ## Definition
 
-**Pseudocode** is a way of writing program logic in simple English-like steps before writing actual code.
+Pseudocode is a way of writing program logic in simple English-like steps before writing actual code.
 
-It is **not** a real programming language. It does not follow strict Java syntax. It is used to **plan and explain logic** clearly.
-
----
+It is not a real programming language. It does not follow strict Java syntax. It is used to plan and explain logic clearly.
 
 ## Simple Meaning
 
@@ -16,48 +12,40 @@ It is **not** a real programming language. It does not follow strict Java syntax
 Pseudocode = logic written in simple code-like English
 ```
 
----
-
 ## Flow of Problem Solving
 
 ```text
-Algorithm → Pseudocode → Program
+Algorithm -> Pseudocode -> Program
 ```
 
 | Step | Meaning |
 |---|---|
-| **Algorithm** | Step-by-step logic |
-| **Pseudocode** | Logic written in simple English-like code |
-| **Program** | Actual code written in a programming language |
-
----
+| Algorithm | Step-by-step logic |
+| Pseudocode | Logic written in simple English-like code |
+| Program | Actual code written in a programming language |
 
 ## Real-Life Analogy
 
-Pseudocode is like writing **rough points** before writing a final exam answer.
+Pseudocode is like writing rough points before writing a final exam answer.
 
-The rough points are not the final answer, but they help **organize thoughts clearly**.
+The rough points are not the final answer, but they help organize thoughts clearly.
 
 Similarly, pseudocode helps organize program logic before writing actual Java code.
-
----
 
 ## Why We Use Pseudocode
 
 We use pseudocode to:
 
-- Plan logic **before** coding
+- Plan logic before coding
 - Avoid syntax confusion
-- Explain solutions clearly in **interviews**
+- Explain solutions clearly in interviews
 - Reduce mistakes while coding
 - Convert logic into Java code easily
-- Focus on **problem-solving** instead of language rules
+- Focus on problem-solving instead of language rules
 
----
+## Example 1: Add Two Numbers
 
-## Example 1 — Add Two Numbers
-
-### Algorithm
+## Algorithm
 
 ```text
 1. Start
@@ -68,7 +56,7 @@ We use pseudocode to:
 6. Stop
 ```
 
-### Pseudocode
+## Pseudocode
 
 ```text
 BEGIN
@@ -78,7 +66,7 @@ BEGIN
 END
 ```
 
-### Java Program
+## Java Program
 
 ```java
 public class AddTwoNumbers {
@@ -98,13 +86,13 @@ public class AddTwoNumbers {
 }
 ```
 
-### Output
+## Output
 
 ```text
 30
 ```
 
-### Dry Run
+## Dry Run
 
 ```text
 a = 10
@@ -114,14 +102,12 @@ sum = a + b
 sum = 10 + 20
 sum = 30
 
-Output → 30
+Output = 30
 ```
 
----
+## Example 2: Check Even or Odd
 
-## Example 2 — Check Even or Odd
-
-### Pseudocode
+## Pseudocode
 
 ```text
 BEGIN
@@ -135,7 +121,7 @@ BEGIN
 END
 ```
 
-### Java Program
+## Java Program
 
 ```java
 public class EvenOdd {
@@ -155,50 +141,48 @@ public class EvenOdd {
 }
 ```
 
-### Output
+## Output
 
 ```text
 Odd
 ```
 
-### Dry Run
+## Dry Run
 
 ```text
 n = 7
 
-Check : n % 2 == 0
-Check : 7 % 2 == 0
-Check : 1 == 0
+Check: n % 2 == 0
+Check: 7 % 2 == 0
+Check: 1 == 0
 
 Condition is false.
 
-Output → Odd
+Output = Odd
 ```
-
----
 
 ## Pseudocode vs Algorithm vs Program
 
-| | Algorithm | Pseudocode | Program |
-|---|---|---|---|
-| **What it is** | Written steps | Code-like English steps | Actual code |
-| **Language** | Independent | Mostly independent | Dependent |
-| **Focus** | Logic | Logic structure | Implementation |
-| **Example** | Add two numbers | `READ a, b` → `PRINT sum` | Java / C++ / Python |
-
----
+| Algorithm | Pseudocode | Program |
+|---|---|---|
+| Written steps | Code-like English steps | Actual code |
+| Language independent | Mostly language independent | Language dependent |
+| Focuses on logic | Focuses on logic structure | Focuses on implementation |
+| Example: Add two numbers | READ a, b; PRINT sum | Java/C++/Python code |
 
 ## Time Complexity
+
+For both examples:
 
 ```text
 O(1)
 ```
 
-Only a fixed number of operations are performed in both examples.
-
----
+Only a fixed number of operations are performed.
 
 ## Space Complexity
+
+For both examples:
 
 ```text
 O(1)
@@ -206,19 +190,15 @@ O(1)
 
 Only a fixed number of variables are used.
 
----
-
 ## Common Beginner Mistakes
 
 - Thinking pseudocode is actual Java code
-- Worrying too much about syntax rules
-- Not using proper **indentation**
-- Writing unclear or vague steps
+- Worrying too much about syntax
+- Not using indentation
+- Writing unclear steps
 - Skipping input and output
 - Writing too much unnecessary English
-- Jumping directly to code without planning
-
----
+- Directly coding without planning
 
 ## Interview Questions
 
@@ -230,63 +210,64 @@ Only a fixed number of variables are used.
 6. What is the difference between algorithm and pseudocode?
 7. Why is pseudocode useful in interviews?
 
----
-
 ## Interview-Ready Answers
 
 ### 1. What is pseudocode?
+
 Pseudocode is program logic written in simple English-like code before writing actual programming code.
 
 ### 2. Why do we use pseudocode?
+
 We use pseudocode to plan the logic clearly, avoid syntax confusion, reduce mistakes, and make coding easier.
 
 ### 3. Is pseudocode a programming language?
-No, pseudocode is **not** a programming language. It is only a way to represent logic.
+
+No, pseudocode is not a programming language. It is only a way to represent logic.
 
 ### 4. Is pseudocode language-dependent?
-No, pseudocode is mostly **language independent** because it focuses on logic, not syntax.
+
+No, pseudocode is mostly language independent because it focuses on logic, not syntax.
 
 ### 5. Can pseudocode be directly compiled?
-No, pseudocode **cannot** be compiled or executed directly because it is not actual code.
+
+No, pseudocode cannot be compiled or executed directly because it is not actual code.
 
 ### 6. What is the difference between algorithm and pseudocode?
-An algorithm is a step-by-step method to solve a problem, while pseudocode is a **code-like way** of writing that logic.
+
+An algorithm is a step-by-step method to solve a problem, while pseudocode is a code-like way of writing that logic.
 
 ### 7. Why is pseudocode useful in interviews?
-Pseudocode helps explain logic clearly before writing actual code, which shows **structured thinking** to the interviewer.
 
----
+Pseudocode helps explain logic clearly before writing actual code, which shows structured thinking to the interviewer.
 
 ## Practice Problems
 
 ### Easy
+
 Write pseudocode to add two numbers.
 
 ### Medium
+
 Write pseudocode to find the largest of two numbers.
 
-### Hard (for Beginner)
-Write pseudocode to check whether a number is positive, negative, or zero.
+### Hard for Beginner
 
----
+Write pseudocode to check whether a number is positive, negative, or zero.
 
 ## Final Revision Notes
 
 ```text
 Pseudocode = program logic written in simple English-like code.
-
-It is NOT actual Java code.
-It CANNOT be compiled.
+It is not actual Java code.
+It cannot be compiled.
 It is mostly language independent.
 It helps plan logic before coding.
 It reduces syntax confusion.
-It is very useful in technical interviews.
+It is useful for interviews.
 
-Flow: Algorithm → Pseudocode → Program
+Algorithm -> Pseudocode -> Program
 ```
-
----
 
 ## Summary
 
-Pseudocode is an important **beginner-friendly tool** for planning program logic. It helps programmers think clearly before writing code and makes it easier to explain solutions during interviews. Mastering pseudocode builds strong logical thinking for DSA.
+Pseudocode is an important beginner-friendly tool for planning program logic. It helps programmers think clearly before writing code and makes it easier to explain solutions during interviews.
