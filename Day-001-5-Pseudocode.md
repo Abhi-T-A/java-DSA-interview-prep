@@ -240,20 +240,6 @@ An algorithm is a step-by-step method to solve a problem, while pseudocode is a 
 
 Pseudocode helps explain logic clearly before writing actual code, which shows structured thinking to the interviewer.
 
-## Practice Problems
-
-### Easy
-
-Write pseudocode to add two numbers.
-
-### Medium
-
-Write pseudocode to find the largest of two numbers.
-
-### Hard for Beginner
-
-Write pseudocode to check whether a number is positive, negative, or zero.
-
 ## Final Revision Notes
 
 ```text
