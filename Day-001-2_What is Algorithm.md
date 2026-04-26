@@ -220,19 +220,6 @@ Algorithms are important because interviewers test problem-solving ability, logi
 
 ---
 
-## Practice Problems
-
-### Easy
-Write an algorithm to add two numbers.
-
-### Medium
-Write an algorithm to find the largest of two numbers.
-
-### Hard (for Beginner)
-Write an algorithm to check whether a number is even or odd.
-
----
-
 ## Final Revision Notes
 
 ```text
