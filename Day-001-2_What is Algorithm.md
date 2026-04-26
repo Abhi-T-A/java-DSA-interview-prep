@@ -1,4 +1,4 @@
-# Day 002 - What is an Algorithm?
+# Day 001 - What is an Algorithm?
 
 ---
 
