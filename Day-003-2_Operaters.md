@@ -1,4 +1,4 @@
-# Day 009 - Operators in Java
+# Day 003 - Operators in Java
 
 ## Definition
 
